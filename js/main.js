@@ -1,5 +1,7 @@
 import { projects } from "./data/projects.js";
 import { createProjectCard } from "./components/projectCard.js";
+import { renderHeader } from "./components/header.js";
+import { renderFooter } from "./components/footer.js";
 
 const projectGrid = document.querySelector("#project-grid");
 
@@ -9,12 +11,6 @@ function renderProjects() {
   }
 }
 
-function updateYear() {
-  const yearElement = document.querySelector("#year");
-  if (yearElement) {
-    yearElement.textContent = new Date().getFullYear();
-  }
-}
-
+renderHeader();
 renderProjects();
-updateYear();
+renderFooter();

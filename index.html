@@ -24,10 +24,33 @@
   </head>
 
   <body>
-    <header class="topbar container"></header>
+    <header id="header"></header>
 
     <main>
-      <section class="hero container" id="about"></section>
+      <section class="hero container" id="about">
+        <div class="hero-name">
+          <p class="eyebrow">Front-end Developer</p>
+
+          <h1>
+            Emmelin<br />
+            Larina
+          </h1>
+
+          <a href="mailto:hello.emmelin@gmail.com" class="email">
+            hello.emmelin@gmail.com
+          </a>
+        </div>
+
+        <div class="hero-intro">
+          <img src="images/me.jpg" alt="Portrait of Emmelin Larina" />
+
+          <p>
+            Front-end development student with a background in 3D art and
+            animation. I enjoy combining creative design with clean,
+            user-focused development.
+          </p>
+        </div>
+      </section>
 
       <section class="work container" id="work">
         <div class="work-title">
@@ -37,12 +60,38 @@
         <div class="grid" id="project-grid"></div>
       </section>
 
-      <section class="contact container" id="contact"></section>
+      <section class="contact container" id="contact">
+        <div class="contact-title">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Let's connect.</h2>
+        </div>
+
+        <div class="contact-content">
+          <p>
+            I'm currently studying front-end development and actively seeking
+            opportunities to collaborate on exciting projects.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:hello.emmelin@gmail.com">Email</a>
+
+            <a
+              href="https://github.com/emmelinlarina"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+
+            <a href="link" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="container foot">
-      <span id="year"></span> &copy; Emmelin Larina
-    </footer>
+    <footer id="footer"></footer>
 
     <script type="module" src="js/main.js"></script>
   </body>
