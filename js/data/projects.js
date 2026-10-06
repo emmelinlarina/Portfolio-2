@@ -4,20 +4,20 @@ export const projects = [
     title: "CSS Frameworks",
     description: "Description for project one.",
     imageUrl: "images/project-one.jpg",
-    article: "projects/css-frameworks.html",
+    article: "css-frameworks.html",
   },
   {
     id: 2,
     title: "JavaScript Frameworks",
     description: "Description for project two.",
     imageUrl: "images/project-two.jpg",
-    article: "projects/javascript-frameworks.html",
+    article: "javascript-frameworks.html",
   },
   {
     id: 3,
     title: "Semester Project 2",
     description: "Description for project three.",
     imageUrl: "images/project-three.jpg",
-    article: "projects/semester-project-2.html",
+    article: "semester-project-2.html",
   },
 ];
