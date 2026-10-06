@@ -1,0 +1,153 @@
+.project {
+  margin-top: var(--space-md);
+}
+
+.project-header {
+  padding: var(--space-lg);
+}
+
+.project-header,
+.project-image,
+.project-content,
+.project-features,
+.project-tech {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-md);
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: var(--space-xl);
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.back-link:hover,
+.back-link:focus-visible {
+  color: var(--color-text);
+}
+
+.project-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-lg);
+}
+
+.project-heading h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  line-height: 1;
+}
+
+.copy-link {
+  padding: var(--space-xs) var(--space-sm);
+  color: var(--color-text);
+  background: transparent;
+  border: 1px solid var(--color-border-dark);
+  border-radius: var(--radius-sm);
+
+  cursor: pointer;
+
+  transition:
+    background var(--transition),
+    border-color var(--transition);
+}
+
+.copy-link:hover,
+.copy-link:focus-visible {
+  background: var(--color-surface-primary);
+  border-color: var(--color-text-muted);
+}
+
+/* Image */
+
+.project-image {
+  margin: var(--space-md) 0 0;
+  padding: var(--space-md);
+}
+
+.project-image img {
+  width: 100%;
+  max-height: 100%;
+
+  object-fit: cover;
+  object-position: top;
+  border-radius: var(--radius-sm);
+}
+
+.project-image figcaption {
+  margin-top: var(--space-xs);
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+}
+
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--space-xl);
+  margin-top: var(--space-md);
+  padding: var(--space-lg);
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-sm);
+}
+
+.project-links a {
+  color: var(--color-text);
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-border-dark);
+}
+
+.project-links a:hover,
+.project-links a:focus-visible {
+  border-bottom-color: var(--color-text);
+}
+
+.project-description h2,
+.project-features h2,
+.project-tech h2 {
+  margin-top: 0;
+}
+
+.project-description p:last-child {
+  margin-bottom: 0;
+}
+
+.project-features,
+.project-tech {
+  margin-top: var(--space-md);
+  padding: var(--space-lg);
+}
+
+.project-features ul,
+.project-tech ul {
+  margin-bottom: 0;
+  padding-left: 1.25rem;
+}
+
+.project-features li,
+.project-tech li {
+  margin-bottom: var(--space-xs);
+}
+
+@media (max-width: 768px) {
+  .project-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .project-content {
+    grid-template-columns: 1fr;
+  }
+
+  .project-heading h1 {
+    font-size: clamp(2.2rem, 12vw, 4rem);
+  }
+}
