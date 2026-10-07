@@ -1,6 +1,6 @@
 # Portfolio 2
 
-// image here
+![Portfolio 2](images/PF2_cp.png)
 
 A multipage front-end development portfolio showcasing selected projects, project improvements, and my development skills.
 
