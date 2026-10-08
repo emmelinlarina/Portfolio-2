@@ -10,6 +10,7 @@
 .project-image,
 .project-content,
 .project-features,
+.portfolio-improvements,
 .project-tech {
   background-color: var(--color-surface);
   border-radius: var(--radius-md);
@@ -85,7 +86,6 @@
 
 .project-content {
   display: grid;
-  grid-template-columns: 1fr 2fr;
   gap: var(--space-xl);
   margin-top: var(--space-md);
   padding: var(--space-lg);
@@ -112,6 +112,7 @@
 
 .project-description h2,
 .project-features h2,
+.portfolio-improvements h2,
 .project-tech h2 {
   margin-top: 0;
 }
@@ -121,18 +122,21 @@
 }
 
 .project-features,
+.portfolio-improvements,
 .project-tech {
   margin-top: var(--space-md);
   padding: var(--space-lg);
 }
 
 .project-features ul,
+.portfolio-improvements ul,
 .project-tech ul {
   margin-bottom: 0;
   padding-left: 1.25rem;
 }
 
 .project-features li,
+.portfolio-improvements li,
 .project-tech li {
   margin-bottom: var(--space-xs);
 }

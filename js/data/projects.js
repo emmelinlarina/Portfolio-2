@@ -21,7 +21,7 @@ export const projects = [
     title: "JavaScript Frameworks",
     description:
       "Online store for browsing products, searching for items, managing a cart, and completing checkout.",
-    imageUrl: "images/JS_Frameworks-200kb.jpeg",
+    imageUrl: "images/JS_Frameworks-cp.jpeg",
     article: "javascript-frameworks.html",
   },
 ];
