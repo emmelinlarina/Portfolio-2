@@ -80,7 +80,7 @@
 
 .project-image figcaption {
   margin-top: var(--space-xs);
-  color: var(--color-text-muted);
+  color: var(--color-text-dark);
   font-size: 0.85rem;
 }
 
