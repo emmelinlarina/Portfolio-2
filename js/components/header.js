@@ -5,14 +5,14 @@ export function renderHeader() {
 
   header.innerHTML = `
         <div class="topbar container">
-            <a class="logo" href="../index.html" aria-label="Emmelin Larina - Home">
+            <a class="logo" href="index.html" aria-label="Emmelin Larina - Home">
                 EMMELIN
             </a>
             
             <nav aria-label="Main Navigation">
-                <a href="#work">Work</a>
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+                <a href="index.html#work">Work</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#contact">Contact</a>
             </nav>
         </div>
      `;
